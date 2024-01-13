@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning Platform</title>
+</head>
+<body>
+  <h1>Online Learning Platform</h1>
+
+  <h2>Courses</h2>
+  <ul id="course-list"></ul>
+
+  <h2>Users</h2>
+  <ul id="user-list"></ul>
+
+  <form id="add-course-form">
+    <label for="course-title">Course Title:</label>
+    <input type="text" id="course-title" required>
+    
+    <label for="course-instructor">Instructor:</label>
+    <input type="text" id="course-instructor" required>
+    
+    <label for="course-description">Description:</label>
+    <textarea id="course-description" required></textarea>
+    
+    <button type="submit">Add Course</button>
+  </form>
+
+  <form id="add-user-form">
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    
+    <button type="submit">Add User</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
